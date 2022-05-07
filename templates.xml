@@ -1,0 +1,9 @@
+<template name="bean" value="@org.springframework.context.annotation.Bean&#10;$ClassName$ $BeanName$($ClassName1$ $Parameter$){&#10;&#9;return new $ClassName$($Parameter$);&#10;}" description="Create Spring Bean" toReformat="true" toShortenFQNames="true">
+  <variable name="ClassName" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="BeanName" expression="decapitalize(ClassName)" defaultValue="" alwaysStopAt="false" />
+  <variable name="ClassName1" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="Parameter" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="JAVA_DECLARATION" value="true" />
+  </context>
+</template>
